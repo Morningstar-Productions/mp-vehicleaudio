@@ -1,5 +1,4 @@
 fx_version 'adamant'
-
 game 'gta5'
 
 files {
@@ -7,6 +6,10 @@ files {
     'audioconfig/*.dat54.rel',
     "audioconfig/*.dat10.rel",
     'sfx/**/*.awc'
+}
+
+dependencies {
+    'mp-importvehicles'
 }
 
 data_file 'AUDIO_GAMEDATA' 'audioconfig/aventadorv12_game.dat'
